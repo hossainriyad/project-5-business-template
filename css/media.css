@@ -1,0 +1,107 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .carousel-caption {left:15%;right:15%;}
+    .carousel-caption h4 {font-size: 22px;}
+    .carousel-caption {top: 15%;}
+    .carousel-caption h1 {font-size:36px; padding: 30px 0px;}
+    .carousel-caption p {font-size: 16px; padding-bottom:60px;}
+     .carousel-caption a.read_btn { margin-right: 10px;}
+    .carousel-caption a.read_btn, .carousel-caption a.contact_btn {font-size: 14px;padding:8px 12px;}
+    .search-btn {display: none;}
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {border-bottom:none !important;}
+    .navbar-toggler:focus, .navbar-toggler:hover {outline: none;}
+    .mixit-all-content .row {margin-right:0px;margin-left:0px;}
+    .mixit-single-content img {width: 100%;}
+    .mixitup-trigger ul li { margin-bottom: 20px;}
+/*    .social-icons, .phone, .email {display: table; margin: 10px auto;}*/
+    .social-icons ul li a i {font-size: 20px;}
+    .about-content p {font-size: 14px;}
+    .about-content p.para2 {padding-bottom:50px;}
+    .about-image {display: table; margin: auto;}
+    .contact_para {text-align: center;margin-bottom: 40px;}
+    .contact_button {float: none;text-align: center;}
+    .contact_para p {line-height: 1.6}
+    .margintop40, .mt40px {margin-top: 40px;}
+    .skill-heading {margin-top: 50px;}
+    .what_we_do p.skill-para {padding-bottom:30px;}
+    .m-t-100 {margin-top: 100px;}
+    .contact_info {margin-top:40px;}
+    .form-group {margin: 20px 0px 30px;}
+    .form-control.inputemail { margin-top: 20px;}
+    .contact-phone {margin:25px 0px;}
+    .contact-social-icon {margin-top:30px;}
+    .contact_info h2 { letter-spacing:0px;}
+    .contact-phone p, .contact-mail p {font-size:18px;}
+    .contact-phone i, .contact-mail i {font-size:19px;}
+    .contact-social-icon ul li a i {font-size: 24px;}
+}
+ /*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    .carousel-caption h1 {font-size:50px;} 
+    .search-btn {display: none;}
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {border-bottom:none !important;}
+    .navbar-toggler:focus, .navbar-toggler:hover {outline: none;}
+    .mixitup-trigger ul li {margin-right: 20px;}
+    .social-icons {display: table; margin: 10px auto;}
+    .social-icons ul li a i {font-size: 24px;}
+    .about-content p {font-size: 14px;}
+    .about-content p.para2 {padding-bottom:50px;}
+    .about-image {display: table; margin: auto;}
+    .contact_para {text-align: center;margin-bottom: 40px;}
+    .contact_button {float: none;text-align: center;}
+    .contact_para p {line-height: 1.6}
+    .margintop40 {margin-top: 40px;}
+    .skill-heading {margin-top: 50px;}
+    .what_we_do p.skill-para {padding-bottom:30px;}
+    .m-t-100 {margin-top: 100px;}
+    .contact_info {margin-top: 40px;}
+    .form-control.inputemail { margin-top: 40px;}
+    .contact-phone {margin:25px 0px;}
+    .contact-social-icon {margin-top:30px;}
+}
+ /*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .search-btn {display: none;}
+    .carousel-caption h1 {font-size:65px;} 
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {border-bottom:none !important;}
+    .navbar-toggler:focus, .navbar-toggler:hover {outline: none;}
+    .about-content p.para2 {padding-bottom:50px;}
+    .about-image {display: table; margin: auto;}
+    .contact_para {text-align: center;margin-bottom: 40px;}
+    .contact_button {float: none;text-align: center;}
+    .contact_para p {line-height: 1.6}
+    .margintop40 {margin-top: 40px;}
+    .what_we_do p.skill-para {padding-bottom:30px;}
+    .client_content h2 {font-size: 24px;}
+    .client_content p {font-size: 18px;}
+    .form-control.inputemail { margin-top: 20px;}
+    .form-group {margin: 20px 0px 30px;}
+    .contact_info h2 { letter-spacing:0px;}
+    .contact-phone p, .contact-mail p {font-size:16px;}
+    .contact-phone i, .contact-mail i {font-size:18px;}
+    .contact-social-icon ul li a i {font-size: 24px;}
+}
+ /*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about-content p {font-size: 14px;line-height: 1.6;}
+    .about-content p.para2 {padding-bottom:50px;}
+    .contact_para p {font-size: 20px;}
+    .contact_para p span {font-size: 28px;}
+    .contact_button a {font-size:14px;}
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    
+}
+
+
+
+
+
+

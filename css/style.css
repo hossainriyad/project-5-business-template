@@ -1,0 +1,493 @@
+/*-----start reset CSS----*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul, ul li {
+    list-style:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+/*------ end reset css ------*/
+
+/*----- start top header css ----*/
+.phone, .email, .social-icons {margin:18px 0;}
+.phone i, .email i {color: #33cccc;float: left; margin-right: 15px; transform: rotate(90deg);font-size: 16px;}
+.phone p, .email p {color: #666; display: table;}
+.email i {transform: rotate(0deg);}
+.social-icons ul {float: right;}
+.social-icons ul li {display: inline-block;margin-right: 10px;}
+.social-icons ul li.l-i {margin-right: 0px;}
+.social-icons ul li a {text-decoration: none;}
+.social-icons ul li a i {display: block;color:#33cccc;transition: all 0.4s;}
+.social-icons ul li a i:hover {color: #222;}
+/*----- end top header css ----*/
+
+/*----- Start bottom header css ----*/
+.bottom_header {background:#33cccc;}
+.bg-light {
+    background-color: transparent!important;
+}
+.navbar-brand {
+    padding-top:0;
+    padding-bottom:0;
+    margin-right:0;
+    margin: 18.5px 0;
+}
+.navbar {
+     padding:0px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color:inherit;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link.search-btn {
+    margin-right: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+.nav-link {
+    padding:0px 0px;
+    margin:25px 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#fff !important;
+    font-size: 18px !important;
+    transition: all 0.4s;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {
+    color:#333 !important;
+    border-bottom: 2px solid #333 !important;
+}
+.navbar-light .navbar-nav .nav-link.search-btn:hover {
+    border-bottom: none !important;
+}
+/*-----Search Option------*/
+.navbar .navbar-nav .search-btn i.s-btn2 {
+    font-size: 18px;
+    color:#fff;
+    cursor: pointer;
+}
+.search-btn {
+    position:relative;
+}
+.search-btn .search-form {
+    position: absolute;
+    right:0%;
+    top:150%;
+    display: none;
+}
+.search-form form input {
+    border: 1px solid #33cccc;
+	padding: 10px 15px;
+    width: 300px;
+    border-radius: 30px;
+}
+.search-form form input:focus{
+    border: 1px solid #33cccc;
+	padding: 10px 15px;
+    width: 300px;
+    border-radius: 30px;
+    outline:none;
+}
+.search {
+    position:absolute;
+    border: none;
+	height: 100%;
+	padding: 0;
+	right: 0;
+	top: 0;
+    background: transparent;
+}
+.search-form button.search i {
+    color:#333;
+    font-size:16px;
+    padding-right: 15px;    
+}
+
+/*----- end bottom header css ----*/
+
+/*----Start slider CSS----*/
+.container-fluid {padding-right: 0px;padding-left: 0px;}
+.carousel-inner > .carousel-item > img {line-height: 1; height: 700px;}
+.carousel-item:before {content:'';position: absolute;top:0;right: 0;bottom: 0;left: 0;background:#000;opacity: 0.59;}
+.carousel-caption {color: #fff; left: auto; right: auto;top:20%; bottom: auto;}
+.carousel-caption h4 {font-weight:700; font-size: 30px;}
+.carousel-caption h1 {font-weight: 900; font-size: 72px; padding: 30px 0px 40px; text-transform: uppercase;}
+.carousel-caption p {font-size: 18px; line-height: 1.6; padding-bottom:90px; max-width:700px; margin: auto 0;}
+.carousel-caption a.read_btn, .carousel-caption a.contact_btn {display: inline-block; text-transform: uppercase; font-size: 18px; color: #fff; text-decoration: none; border: 1px solid #fff; padding:10px 20px; border-radius:5px; transition: all 0.4s;}
+.carousel-caption a.read_btn {margin-right: 20px;}
+.carousel-caption a.contact_btn:hover, .carousel-caption a.read_btn:hover {background:#1cb9c8; border: 1px solid #1cb9c8;}
+.carousel-indicators .active {background-color: #1cb9c8;}
+.carousel-indicators li {margin-bottom: 40px;background-color:#fff;}
+
+.controls i.left-arrow, .controls i.right-arrow {position: absolute;font-size: 24px; color: #fff; top: 50%;}
+.controls i.left-arrow {left:20px;}
+.controls i.right-arrow {right: 20px;}
+
+/*----end slider CSS----*/
+
+/*----- start about us css -------*/
+.about_us {padding:80px 0px;}
+.about-content h2 {font-size: 30px; text-transform: uppercase; color: #636767;font-weight: 900;}
+.about-content h2 span {color: #18acab;}
+.single-border {display: block;width: 100px; height:5px; background: #18acab; margin: 15px 0px 40px;}
+.about-content p {font-size: 16px; color:#6f6e6f; line-height: 1.5;text-transform: uppercase;}
+.about-content p.para1 {padding-bottom: 35px;}
+.about-content p.para2 {padding-bottom: 103px;}
+.about-content a.about_btn {font-size: 18px; text-transform: uppercase; padding: 10px 20px; background: #4dfbfb; color: #fff; display: inline-block; text-decoration: none; font-weight: 500; transition: all 0.6s;}
+.about-content a.about_btn:hover {background: #333;}
+.about-image {}
+.about-image img {margin-top:57px; display: inherit;}
+/*----- end about us css -------*/
+
+/*------start single contact heading css-------*/
+.single_contact {background: #27bfbf; padding:70px 0;}
+.contact_para p {font-size: 24px;color: #fff;}
+.contact_para p span {font-size:32px; font-weight:700;}
+.contact_button {float: right;}
+.contact_button a {font-size: 18px; color: #ffffff; font-weight: 700; text-transform: uppercase; padding: 11px 17.5px; border: 1px solid #fff; display: inline-block;border-radius: 5px; text-decoration: none; transition: all 0.4s;}
+.contact_button a:hover {border:1px solid #333; color: #333;} 
+/*------end single contact heading css-------*/
+
+/*----- start services CSS----*/
+.services {padding:65px 0 50px;}
+.service-heading, .portfolio-heading  {margin-bottom:40px;}
+.service-heading h1 {color:#444344; font-size:30px;text-transform: uppercase;font-weight:900;}
+.service-heading h1 span {color:#27bfbf;}
+.border-two, .border-three, .border-four, .border-five, .border-six, .border-seven, .border-eight {display: block;width: 120px;height:5px; background:#27bfbf; margin: 25px auto 30px;}
+.service-heading p, .portfolio-heading p {max-width: 800px; font-size:16px; color: #7b7a7b; margin: 0px auto; line-height: 1.6;}
+.service-box {transition: all 0.5s;}
+.service-box i {display: inline-block; width: 85px; height: 85px; line-height: 85px; text-align: center; background:#27bfbf; color: #fff;font-size: 30px; border-radius: 180%; transition: all 0.4s;}
+.service-box h3 a {text-decoration:none;font-size: 22px; color: #131212; text-transform: uppercase;padding: 30px 0px;display: inline-block;font-weight:700; transition: all 0.4s;}
+.service-box p {font-size: 16px; color: #7b7a7b; line-height: 1.6;}
+.service-box:hover i {background:#333;}
+.service-box:hover a {color:#27bfbf;}
+
+/*----- end services CSS----*/
+
+/*------- start our portfolio CSS -------*/
+.portfolio {background: #f2f2f2; padding: 80px 0px 50px;}
+.portfolio-heading {}
+.portfolio-heading h1 {font-size: 30px; color: #5c5d5d; text-transform: uppercase; font-weight: 900;}
+.portfolio-heading h1 span {color:#27bfbf;}
+
+/*=====================================
+Use of MixIt and Magnific PopUp Plugin
+======================================*/
+
+.mixitup-trigger {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.mixitup-trigger ul li {
+    display: inline-block;
+    font-size:20px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    color:#383535;  
+    font-weight:900;
+    border-bottom: 2px solid transparent;
+    cursor:pointer;
+    padding-bottom: 6px;
+    transition: all 0.4s;
+}
+.mixitup-trigger ul li:last-child {
+    margin-right: 0px;
+}
+.mixitup-trigger ul li:hover {
+    color:#18b3c0; 
+    border-bottom:2px solid #18b3c0;
+    
+}
+.mixit-all-content {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.mixit-all-content .mix {
+    display: none;
+}
+.mixit-single-content {
+    margin-bottom: 30px;  
+    position: relative;
+    overflow:hidden;
+}
+.mixit-single-content img {
+    transform:scale(1);
+    transition:all 0.5s ease-in-out;
+    height: 350px;
+    width: 100%;
+}
+.mixit-single-content:hover img {
+    transform: scale(1.2);
+}
+.mixit-single-content:after {
+    content: "";
+    position:absolute;
+    width:103%;
+    height:0%;
+    background:#18b3c0;
+    opacity:0.5;
+    bottom: 2px;
+    left:0px;
+    transition:all 0.6s ease;
+}
+.mixit-single-content:hover:after {
+    height:100%;
+    top:0px;
+}
+.portfolio-content a i, .portfolio-content span i {
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    background:#333;
+    color:#fff;
+    border-radius:180px;
+    font-size:18px;
+    text-align:center;
+    z-index:1;
+}   
+.portfolio-content span i {
+    cursor: pointer;
+}
+.portfolio-content a i:hover, .portfolio-content span i:hover {
+    background:#fff;
+    color:#000;
+}
+
+.portfolio-content a i.fa-link, .portfolio-content span i.fa-search {
+    position:absolute;
+    z-index:2;
+    top: 50%;
+    margin-top: -20px;
+    transition: all 0.6s ease-in-out;
+}  
+.portfolio-content a i.fa-link {
+    left:-50px;
+}
+.mixit-single-content:hover .portfolio-content a i.fa-link {
+    left:50%;
+    margin-left:5px;
+}
+.portfolio-content span i.fa-search {
+    right:-50px;
+}
+.mixit-single-content:hover .portfolio-content span i.fa-search {
+    right:50%;
+    margin-right:5px;
+}
+
+/*------- End our portfolio CSS -------*/
+
+/*---------start skills CSS--------*/
+.skill_work {margin: 70px 0px 80px;}
+.what_we_do h2, .skill-heading h2, .advisor-heading h2, .client-heading h2, .contact-heading h2 {font-size: 30px; text-transform:uppercase; color: #5b5e5e;font-weight: 900;}
+.what_we_do h2 span, skill-heading span {color: #1cb9c7;}
+.border-four {width:88px; margin:20px 0px 40px;}
+.what_we_do p.skill-para {color: #737171;padding-bottom:80px;font-size: 16px; line-height: 1.6;}
+.what_we_do .icon-para {font-size: 16px; margin-bottom: 35px;}
+.what_we_do .icon-para:last-child {margin-bottom: 0px;}
+.what_we_do .icon-para i {float: left;margin-right: 25px; color: #1cb9c7;}
+.what_we_do .icon-para p {display: table;color: #737171;}
+.border-five {width:67px; margin:20px 0px 30px;}
+
+/*=====================
+    barfiller use
+=======================*/
+.skill_box h3 {font-size: 16px; font-weight:700;  color: #a09e9e; margin-bottom:5px; }
+.barfiller {
+    height: 9px !important;
+    background: #dedede !important;
+    border: 1px solid #dedede !important;
+    margin-bottom: 43px !important;
+}
+.skill_box .barfiller.barfill {margin-bottom:0px !important;}
+.barfiller .tip {
+    font-size: 15px;
+    color:#a09e9e;
+    background:transparent;
+    font-weight: 700;
+    margin-top: -26px;
+    padding: 2px 20px;
+}
+.barfiller .tip:after {
+    border-color:#1cb9c7 transparent;
+    left: 22.3px;
+}
+
+/*---------end skills CSS--------*/
+
+/*---------start Meet Our Advisor CSS--------*/
+.meet_our_advisor {padding: 85px 0px 75px; background:url(../img/advisor-bg.png); background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative;}
+.meet_our_advisor:before {content:''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.9;}
+.advisor-heading h2 {color: #fff;}
+.advisor-heading h2 span {color: #1cb6c6;}
+.border-six {background:#fff; margin:20px 0px auto;width: 80px;}
+
+/*===============
+Use Swiper carousel
+=================*/
+.advisor-carousel {padding-top: 80px;}
+.swiper-slide {overflow: hidden;}
+.team_box {position: relative;}
+.team_box img {width:100% !important;}
+.team_box:after {content: ''; position: absolute; top:0; left:0; background:#42c1ce; width:0%; height:100%; transition: all 0.4s;opacity: 0.7; z-index:10;}
+.team-social {position: absolute; z-index:9999; top:-30px; left:50%; transform: translate(-50%, -50%); transition: all 0.5s;}
+.team_box:hover:after {width: 100%;}
+.team_box:hover .team-social {top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.team-social ul li {display: inline-block;}
+.team-social ul li a {text-decoration: none;}
+.team-social ul li a i {display: block; font-size: 19px; color: #fff;margin-right:15px;transition: all 0.5s;}
+.team-social ul li a i.fa-twitter {margin-right: 0px}
+.team-social ul li a i:hover {color:#000;}
+.team-content h3, .team-content p {font-size:28px; text-transform: uppercase; color:#f2f2f2; font-weight: 700; padding:20px 0px 10px;}
+.team-content p {font-size: 20px;padding:0;font-weight: 400;}
+
+/*---------end Meet Our Advisor CSS--------*/
+
+/*------Start Client testimonial CSS------*/
+.client_testimonial {margin:65px 0px 55px;}
+.client-heading {margin-bottom: 125px;}
+.client-heading h2 {color:#6f7373;}
+.client-heading h2 span {color:#1cb9c7;}
+.client-heading p, .contact-heading p {max-width:700px; color: #a09e9e; font-size: 16px; line-height: 1.6;margin: auto;} 
+.border-seven {width:140px;margin:20px auto 45px;}
+.client_single_box {border:3px solid #eee; position: relative;padding:90px 60px 20px; transition: all 0.4s}
+.client_img {position: absolute; top: 0%; left: 50%; transform: translate(-50%, -50%);}
+.client_img img {width: 130px; height: 130px; border-radius: 180px;}
+.client_content h2 {text-transform: uppercase; font-size: 30px; color: #1cb9c8;padding:0px 0px 40px; transition: all 0.4s;}
+.client_content p {color:#878484;font-size:22px; line-height:1.6;}
+.client_single_box:hover {border:3px solid #1cb9c7;}
+.client_single_box:hover .client_content h2 {color: #333;}
+/*------End Client testimonial CSS------*/
+
+/*------Start footer CSS-----*/
+.contact_us {padding: 55px 0px 80px; background:#fcfcfc;}
+.contact-heading {margin-bottom:60px;}
+.contact-heading h2 {color: #666262;}
+.contact-heading h2 span {color:#23bac9;}
+.contact-heading p {color:#a7a5a5;}
+.border-eight {width:80px;margin:20px auto 40px;}
+
+.form-control {height: 50px; font-size: 20px; color:#d6d5d5; background: transparent; border:1px solid #ddd;}
+.form-group {margin: 40px 0px 50px;}
+.form-control:focus {
+    color:#333;
+    background-color:transparent;
+    border-color:#23bac9;
+    outline: 0;
+    box-shadow: none;
+} 
+.contact-btn {
+    font-weight: 500;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
+    background: #1cb9c8;
+    text-transform: uppercase;
+    line-height:1;
+    transition: all 0.4s;
+}
+.btn:focus {box-shadow: none;}
+.contact-btn:hover {background: #333;}
+.contact_info {}
+.contact_info h2 {color:#151414; font-size: 24px; font-weight: 700; letter-spacing:2px;}
+.contact-phone, .contact-mail, .contact-social-icon {margin:0px;}
+.contact-phone {margin:45px 0px 55px;}
+.contact-phone p, .contact-mail p {color: #9a9898;font-size: 20px;}
+.contact-phone i, .contact-mail i {font-size:24px; color: #1cb9c8;}
+.contact-social-icon {margin-top: 70px;}
+.contact-social-icon ul li {display: inline-block; margin-right: 30px;}
+.contact-social-icon ul li a {text-decoration: none;}
+.contact-social-icon ul li a i {display: block; font-size:30px; color: #1cb9c8; transition: all 0.4s;}
+.contact-social-icon ul li a i:hover {color: #333;}
+/*------End footer CSS-----*/
+
+
+/*=================
+  Scrolling Top
+==================*/
+
+#topbtn {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background:#1cb9c8;
+    color:#fff;
+    border-radius: 180px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
